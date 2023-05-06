@@ -46,7 +46,13 @@ const Blog = () => {
         <button className="blog-button">Newslatter</button>
       </section>
       <section className="blog-section-two">
+        {isLoading && <div className="loading"></div>}
         <h3 className="section-two-copyright">© {currentYear} TabNews</h3>
+      </section>
+      <section className="section-pagination">
+        <button className='button-pagination' onClick={handlePreviousPage}>Previous</button>
+        <span className='current-page'>{currentPage}</span>
+        <button className='button-pagination' onClick={handleNextPage}>Next</button>
       </section>
     </main>
     <Footer />
