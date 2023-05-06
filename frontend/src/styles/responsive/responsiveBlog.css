@@ -1,1 +1,25 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .main-blog {
+    margin: 6.1rem;
+    padding: 0;
+  }
+  
+  .blog-section-one {border-bottom: 0.1rem solid var(--Title);}
+  
+  .blog-title {
+    padding: 0.5rem;
+    margin-top: 5.0rem;
+
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: normal;
+    color: var(--Title_Two);
+  }
+
+  .blog-one-text {
+    width: 20rem;
+    font-size: 0.9rem;
+  }
+}
