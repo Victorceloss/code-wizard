@@ -10,7 +10,21 @@
     justify-content: center;
   }
 
+  .footer-title {font-size: 1.5rem;}
+
   .footer-contacts {margin: 1.5rem 0;}
+
+  .contact-info,
+  .contact-info a {
+    padding: 1.0rem 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+  }
 
   .footer-about {display: none;}
 }
