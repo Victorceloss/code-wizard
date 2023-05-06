@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
+import { listAllContent } from "../services/TabnewsAPI.jsx";
 
 import "../styles/blog.css";
 import "../styles/responsive/responsiveBlog.css";
 import { Header } from "../components/Header/header";
 import { Footer } from "../components/Footer/footer";
-import { listAllContent } from "../services/TabnewsAPI.jsx";
+import { Publication } from "../components/Publication/Publication";
 
 const Blog = () => {
   const currentYear = new Date().getFullYear();
@@ -47,6 +48,11 @@ const Blog = () => {
       </section>
       <section className="blog-section-two">
         {isLoading && <div className="loading"></div>}
+        {!isLoading && allContent && allContent.map((publication) => {
+          return (
+            <Publication key={publication.id} publicationData={publication}/>
+          );
+        })}
         <h3 className="section-two-copyright">© {currentYear} TabNews</h3>
       </section>
       <section className="section-pagination">
