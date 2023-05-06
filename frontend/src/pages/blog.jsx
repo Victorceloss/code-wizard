@@ -8,7 +8,6 @@ import { Footer } from "../components/Footer/footer";
 import { Publication } from "../components/Publication/Publication";
 
 const Blog = () => {
-  const currentYear = new Date().getFullYear();
   const [allContent, setAllContent] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
@@ -53,7 +52,6 @@ const Blog = () => {
             <Publication key={publication.id} publicationData={publication}/>
           );
         })}
-        <h3 className="section-two-copyright">© {currentYear} TabNews</h3>
       </section>
       <section className="section-pagination">
         <button className='button-pagination' onClick={handlePreviousPage}>Previous</button>
