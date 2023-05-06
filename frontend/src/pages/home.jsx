@@ -1,4 +1,6 @@
 import "../styles/home.css";
+import "../styles/responsive/responsiveHome.css";
+
 import { Footer } from "../components/Footer/footer";
 import { Header } from "../components/Header/header";
 import ImageOne from "../assets/images/image_one.png";
