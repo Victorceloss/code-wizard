@@ -1,3 +1,4 @@
+import "../styles/blog.css";
 import { Header } from "../components/Header/header";
 import { Footer } from "../components/Footer/footer";
 
@@ -6,7 +7,7 @@ const Blog = () => {
     <>
     <Header />
     <main className="blog-main">
-      
+
     </main>
     <Footer />
     </>
