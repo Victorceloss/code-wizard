@@ -1,10 +1,38 @@
+import { useEffect, useState } from "react";
+
 import "../styles/blog.css";
 import "../styles/responsive/responsiveBlog.css";
 import { Header } from "../components/Header/header";
 import { Footer } from "../components/Footer/footer";
+import { listAllContent } from "../services/TabnewsAPI.jsx";
 
 const Blog = () => {
   const currentYear = new Date().getFullYear();
+  const [allContent, setAllContent] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const getAllContent = async () => {
+    setIsLoading(true);
+
+    const contentData = await listAllContent(currentPage);
+    setAllContent(contentData);
+
+    setIsLoading(false);
+  }
+
+  useEffect(() => {
+    getAllContent();
+  }, [currentPage]);
+
+  const handlePreviousPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  }
+  
+  const handleNextPage = () => setCurrentPage(currentPage + 1);
+
   return (
     <>
     <Header />
