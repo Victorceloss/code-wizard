@@ -1,4 +1,5 @@
 import "../styles/blog.css";
+import "../styles/responsive/responsiveBlog.css";
 import { Header } from "../components/Header/header";
 import { Footer } from "../components/Footer/footer";
 
