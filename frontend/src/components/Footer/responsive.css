@@ -1,2 +1,17 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .footer,
+  .footer-logo,
+  .footer-contacts,
+  .footer-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-contacts {margin: 1.5rem 0;}
+
+  .footer-about {margin: 1.5rem 0;}
+}
