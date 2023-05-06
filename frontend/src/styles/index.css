@@ -10,6 +10,17 @@
   src: url('./fonts/montserrat.ttf') format("truetype");
 }
 
+/*COLORS*/
+:root {
+  --Title: #273273;
+  --Title_Two: #418EF2;
+
+  --Details: #A8A6A6;
+    
+  --Background: #FFFFFF;
+  --White_Auxiliary: #F2F2F2;
+}
+
 /*CSS RESET*/
 * {
   margin: 0;
