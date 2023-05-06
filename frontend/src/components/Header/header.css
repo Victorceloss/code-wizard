@@ -36,6 +36,8 @@
   color: var(--Title_Two);
 }
 
+.header-nav {margin-right: 6.0rem;}
+
 .nav-link {
   padding: 0.5rem;
   margin: 0 0.5rem;
