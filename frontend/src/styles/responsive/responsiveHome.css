@@ -9,6 +9,8 @@
   }
 
   .section-info {
+    padding: 0.5rem;
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -16,15 +18,19 @@
   }
   
   .info-title {
-    font-size: 1.5rem;
+    margin: 0.5rem 0;
+
+    font-size: 1.6rem;
     text-align: center;
   }
 
   .info-subtitle {
-    border: none;
+    margin: 0.5rem 0;
 
     font-size: 1.0rem;
     text-align: center;
+
+    border: none;
   }
 
   .info-text {font-size: 0.9rem;}
@@ -32,7 +38,7 @@
   .info-buttons button {
     margin: 0;
     width: 20rem;
-    padding: 0.5rem;
+    padding: 1.0rem;
 
     font-size: 1.0rem;
   }
