@@ -4,8 +4,8 @@ export const Publication = (publication) => {
 
   return (
     <div className="main-publication">
-      <h1 className="publication-title"></h1>
-      <h2 className="publictation-autor"></h2>
+      <h1 className="publication-title">{dataPublication.title}</h1>
+      <h2 className="publictation-autor">{dataPublication.owner_username}</h2>
     </div>
   );
 };
