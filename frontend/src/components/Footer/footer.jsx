@@ -13,7 +13,7 @@ export const Footer = () => {
         </h3>
         <div className="footer-nav">
           <Link className="footer-link" to={'/'}>Home</Link>
-          <Link className="footer-link" to={'/'}>Blog</Link>
+          <Link className="footer-link" to={'/blog'}>Blog</Link>
           <Link className="footer-link" to={'/'}>About</Link>
         </div>
         <h3 className="footer-copyright">CodeWizard © {currentData}</h3>
