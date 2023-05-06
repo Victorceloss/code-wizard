@@ -34,6 +34,8 @@
 
     border-bottom: none;
   }
+
+  .nav-link:hover {border-bottom: none;}
   
   .header-buttons {display: none;}
   
@@ -54,9 +56,9 @@
   }
   
   .icon-line {
-    width: 25px;
-    height: 3px;
-    margin: 4px;
+    width: 30px;
+    height: 4px;
+    margin: 1.6px;
 
     transition: all 0.2s ease-in-out;
 
