@@ -1,4 +1,6 @@
 import "../styles/about.css";
+import "../styles/responsive/responsiveAbout.css";
+
 import { Header } from "../components/Header/header";
 import { Footer } from "../components/Footer/footer";
 import ImageTwo from "../assets/images/image_two.jpg";
