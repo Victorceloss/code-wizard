@@ -1,3 +1,4 @@
+import "../styles/about.css";
 import { Header } from "../components/Header/header";
 import { Footer } from "../components/Footer/footer";
 
