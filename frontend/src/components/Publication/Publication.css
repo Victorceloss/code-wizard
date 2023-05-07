@@ -1,1 +1,35 @@
 @charset "UTF-8";
+
+.main-publication {
+  padding: 1.5rem;
+  margin: 1.0rem 0;
+
+  cursor: pointer;
+
+  transform: scale(0.9);
+  transition: .5s ease all;
+
+  border-radius: 0.5rem;
+  border: 2px solid var(--Title_Two);
+  background-color: var(--Background);
+}
+
+.main-publication:hover {
+  transform: scale(1);
+
+  background-color: #F2F2F2;
+}
+
+.publication-title {
+  padding: 0.5rem 0;
+
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  color: var(--Title_Two);
+}
+
+.publictation-autor {
+  font-size: 1.1rem;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+}
