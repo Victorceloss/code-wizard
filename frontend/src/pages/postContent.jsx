@@ -5,6 +5,9 @@ const Post = () => {
   return (
     <>
     <Header />
+    <main className="main-post">
+      
+    </main>
     <Footer />
     </>
   );
