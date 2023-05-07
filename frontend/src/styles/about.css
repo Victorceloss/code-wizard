@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.about-main {
+  padding: 8.5rem 0.5rem 9.9rem 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 0.2rem solid var(--Title);
+}
+
+.about-one {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutUs-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.aboutUs-title {
+  margin: 1.0rem 0;
+  padding: 0.5rem 0;
+
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: var(--Title_Two);
+}
+
+.aboutUs-text {
+  width: 50rem;
+
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.about-two {
+  width: 40rem;
+  padding: 1.0rem;
+  margin: 5.0rem 0 0 10rem;
+
+  display: flex;
+
+  border-radius: 0.5rem;
+  background-color: #F2F2F2;
+  border: 1px solid var(--Title);
+}
+
+.about-two-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+
+  color: var(--Title);
+}
+
+.about-two-text {
+  margin: 1.5rem 0;
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.about-two-image {
+  left: 50rem;
+  width: 30rem;
+  height: 20rem;
+
+  position: absolute;
+
+  border-radius: 0.5rem;
+  border: 1px solid var(--Title);
+}
