@@ -24,7 +24,14 @@ const Post = () => {
     <>
     <Header />
     <main className="main-post">
-
+      <section className="post-info">
+        <div className="post-identification">
+          <div className="post-user">
+            <h2 className="user-name">{postContent.owner_username}</h2>
+          </div>
+          <h1 className="post-title">{postContent.title}</h1>
+        </div>
+      </section>
     </main>
     <Footer />
     </>
