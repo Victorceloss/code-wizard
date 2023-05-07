@@ -18,7 +18,7 @@ export const Header = () => {
         <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
           <Link className="nav-link" to={'/'} onClick={toggleMenu}>Home</Link>
           <Link className="nav-link" to={'/blog'} onClick={toggleMenu}>Blog</Link>
-          <Link className="nav-link" to={'/'} onClick={toggleMenu}>About</Link>
+          <Link className="nav-link" to={'/about'} onClick={toggleMenu}>About</Link>
         </nav>
         <div className="header-buttons">
           <button className="buttons-login">Sign In</button>

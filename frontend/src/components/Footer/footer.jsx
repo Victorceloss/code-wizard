@@ -14,7 +14,7 @@ export const Footer = () => {
         <div className="footer-nav">
           <Link className="footer-link" to={'/'}>Home</Link>
           <Link className="footer-link" to={'/blog'}>Blog</Link>
-          <Link className="footer-link" to={'/'}>About</Link>
+          <Link className="footer-link" to={'/about'}>About</Link>
         </div>
         <h3 className="footer-copyright">CodeWizard © {currentData}</h3>
       </div>
