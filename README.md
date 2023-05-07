@@ -1,5 +1,7 @@
 # CodeWizard
 
+![Design](./images/image.png)
+
 This is a programming website built with ReactJS, which aims to provide an easy and convenient way for users to access the latest news from the Tabnews platform. With the help of the Tabnews API, this website provides users with a simple way to view the latest posts in a user-friendly and modern interface.
 
 | This is a purely educational project, with no commercial purposes.
