@@ -8,7 +8,9 @@
     justify-content: center;
   }
 
-  .section-info {
+  .section-info,
+  .section-plataform,
+  .section-learning {
     padding: 0.5rem;
 
     display: flex;
@@ -17,14 +19,17 @@
     justify-content: center;
   }
   
-  .info-title {
-    margin: 0.5rem 0;
+  .info-title,
+  .plataform-title,
+  .title-div-title {
+    margin: 2.0rem 0 1.0rem 0;
 
     font-size: 1.6rem;
     text-align: center;
   }
 
-  .info-subtitle {
+  .info-subtitle,
+  .title-div-subtitle {
     margin: 0.5rem 0;
 
     font-size: 1.0rem;
@@ -48,6 +53,38 @@
   .image-content {display: none;}
 
   .square-layout {display: none;}
+
+  .plataform-services {
+    margin-top: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .plataform-div h3 {font-size: 1.3rem;}
+
+  .plataform-div p {
+    font-size: 1.0rem;
+    text-align: center;
+  }
+
+  .learning-pillars-all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pillars {
+    height: 11.5rem;
+    margin: 1.0rem 0;
+  }
+
+  .pillars h3 {font-size: 1.3rem;}
+
+  .pillars p {font-size: 1.0rem;}
 }
 
 @media screen and (min-width: 1024px) {
