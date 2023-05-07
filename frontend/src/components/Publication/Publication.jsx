@@ -1,3 +1,5 @@
+import "./Publication.css";
+
 export const Publication = (publication) => {
   const dataPublication = publication.publicationData;
   console.log(dataPublication);
