@@ -49,23 +49,22 @@
   display: flex;
 
   border-radius: 0.5rem;
-  background-color: #F2F2F2;
-  border: 1px solid var(--Title);
+  border: 2px solid var(--Title);
+  background-color: transparent;
 }
 
 .about-two-subtitle {
   font-size: 1.2rem;
   text-align: center;
-  letter-spacing: 0.2rem;
-
   color: var(--Title);
+  letter-spacing: 0.2rem;
 }
 
 .about-two-text {
   margin: 1.5rem 0;
   font-size: 1.3rem;
   text-align: justify;
-  line-height: 1.5rem;
+  line-height: 2.0rem;
 }
 
 .about-two-image {
@@ -76,5 +75,5 @@
   position: absolute;
 
   border-radius: 0.5rem;
-  border: 1px solid var(--Title);
+  border: 2px solid var(--Title);
 }
