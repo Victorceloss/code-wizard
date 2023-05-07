@@ -12,7 +12,8 @@
 
 .section-info,
 .section-image,
-.section-plataform {padding: 2.5rem;}
+.section-plataform,
+.section-learning {padding: 2.5rem;}
 
 .section-image {
   display: flex;
@@ -135,4 +136,59 @@
   font-size: 1.0rem;
   text-align: justify;
   line-height: 1.7rem;
+}
+
+.learning-title-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-div-title {
+  padding: 0.5rem 0;
+  margin: 2.0rem 0 0.5rem 0;
+
+  font-size: 2.0rem;
+  color: var(--Title);
+  letter-spacing: 0.1rem;
+}
+
+.title-div-subtitle {
+  padding: 0.5rem 0;
+
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.learning-pillars-all {
+  margin: 2.0rem 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.pillars {
+  height: 15rem;
+  width: 22.5rem;
+  padding: 0.5rem;
+  margin: 0 2.0rem;
+
+  border-radius: 0.5rem;
+  border: 3px solid rgba(65, 142, 242, 0.300);
+}
+
+.pillars-title {
+  padding: 0.5rem 0;
+
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: var(--Title_Two);
+}
+
+.pillars-description {
+  line-height: 1.7rem;
+  text-align: justify;
 }
