@@ -7,7 +7,7 @@ export const Publication = (publication) => {
   return (
     <div className="main-publication">
       <h1 className="publication-title">{dataPublication.title}</h1>
-      <h2 className="publictation-autor">{dataPublication.owner_username}</h2>
+      <h2 className="publictation-autor">Created By {dataPublication.owner_username}</h2>
     </div>
   );
 };
