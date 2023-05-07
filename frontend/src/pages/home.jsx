@@ -57,6 +57,40 @@ const Home = () => {
           </div>
         </div>
       </section>
+    <section className="section-learning">
+      <div className="learning-title-div">
+        <h2 className="title-div-title">Method designed to accelerate your evolution</h2>
+        <h3 className="title-div-subtitle">
+          We combine 3 pillars for you to gain experience, 
+          master tools, and know how to position yourself professionally.
+        </h3>
+      </div>
+      <div className="learning-pillars-all">
+        <div className="pillars">
+          <h3 className="pillars-title">Focus</h3>
+          <p className="pillars-description">
+            Programming is an infinite universe, so having focus is essential.
+            We get straight to the point on what really matters for you to master 
+            the tools, not just to know them.
+          </p>
+        </div>
+        <div className="pillars">
+          <h3 className="pillars-title">Pratice</h3>
+          <p className="pillars-description">
+            Programming is a practical discipline. 
+            It is the hours of code that will prepare you and give you the 
+            necessary experience to make the best decisions in the real world
+          </p>
+        </div>
+        <div className="pillars">
+          <h3 className="pillars-title">Group</h3>
+          <p className="pillars-description">
+            The connection between Devs boosts your technical repertoire, behavioral skills, 
+            and network of contacts. In addition to helping assimilate and fix all learning.
+          </p>
+        </div>
+      </div>
+    </section>
     <Footer />
     </>
   );
