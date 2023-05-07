@@ -29,35 +29,32 @@ const Home = () => {
       </section>
     </main>
     <section className="section-plataform">
-        <h2 className="plataform-title">Why choose the CodeWizard platform?</h2>
-        <div className="plataform-div">
-          <h3 className="plataform-div-title">
-            <i class="fa-solid fa-graduation-cap"></i> Full training from scratch to initial opportunities in the field
-          </h3>
-          <p className="plataform-div-description">
-            Start your journey towards your first technology job with our complete
-            training program, covering everything from basic concepts to practical skills.
-          </p>
-        </div>
-        <div className="plataform-div">
-          <h3 className="plataform-div-title">
-            <i class="fa-solid fa-code"></i> Specialization in advanced stacks
-          </h3>
-          <p className="plataform-div-description">
-            Our specialization in cutting-edge, widely used technologies is designed 
-            to help you become an expert in your area of interest. Explore the latest 
-            tools and advance your IT career
-          </p>
-        </div>
-        <div className="plataform-div">
-          <h3 className="plataform-div-title">
-            <i class="fa-solid fa-school"></i> Advanced and practical classes
-          </h3>
-          <p className="plataform-div-description">
-            The advanced classes offered by our program are taught by technology experts 
-            and based on real-world cases. Put your knowledge into practice, learn from mistakes, 
-            and prepare to stand out in the IT market.
-          </p>
+      <h2 className="plataform-title">Why choose the CodeWizard platform?</h2>
+        <div className="plataform-services">
+          <div className="plataform-div">
+            <h3 className="plataform-div-title">
+              <i class="fa-solid fa-graduation-cap"></i> Complete Education
+            </h3>
+            <p className="plataform-div-description">
+              Start from scratch and advance towards your first opportunities in the field.
+            </p>
+          </div>
+          <div className="plataform-div">
+            <h3 className="plataform-div-title">
+              <i class="fa-solid fa-code"></i> Specialization Program
+            </h3>
+            <p className="plataform-div-description">
+              Specialize in cutting-edge stacks, widely used in the market.
+            </p>
+          </div>
+          <div className="plataform-div">
+            <h3 className="plataform-div-title">
+              <i class="fa-solid fa-school"></i> Advanced Classes
+            </h3>
+            <p className="plataform-div-description">
+              Be among the best by exploring real-world cases in a practical way.
+            </p>
+          </div>
         </div>
       </section>
     <Footer />
