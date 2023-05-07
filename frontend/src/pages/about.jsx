@@ -1,6 +1,7 @@
 import "../styles/about.css";
 import { Header } from "../components/Header/header";
 import { Footer } from "../components/Footer/footer";
+import ImageTwo from "../assets/images/image_two.jpg";
 
 const About = () => {
   return (
@@ -33,7 +34,7 @@ const About = () => {
                 is adaptable and personalized to meet each student&apos;s needs.
               </p>
             </div>
-            <img src="" className='about-two-image' alt="" />
+            <img src={ImageTwo} className='about-two-image' alt="" />
           </section>
     </main>
     <Footer />
