@@ -4,6 +4,7 @@ import "../styles/responsive/responsiveHome.css";
 import { Footer } from "../components/Footer/footer";
 import { Header } from "../components/Header/header";
 import ImageOne from "../assets/images/image_one.png";
+import ImageThree from "../assets/images/image_three.jpg";
 
 const Home = () => {
   return (
@@ -75,7 +76,7 @@ const Home = () => {
           </p>
         </div>
         <div className="pillars">
-          <h3 className="pillars-title">Pratice</h3>
+          <h3 className="pillars-title">Practice</h3>
           <p className="pillars-description">
             Programming is a practical discipline. 
             It is the hours of code that will prepare you and give you the 
@@ -88,6 +89,22 @@ const Home = () => {
             The connection between Devs boosts your technical repertoire, behavioral skills, 
             and network of contacts. In addition to helping assimilate and fix all learning.
           </p>
+        </div>
+      </div>
+    </section>
+    <section className="section-final">
+      <article className="final-image">
+        <img src={ImageThree} alt="" className="final-image" />
+        <div className="square-layout-two"></div>
+      </article>
+      <div className="final-text">
+        <h2 className="final-text-title">We generate results by teaching programming</h2>
+        <p className="final-text-description">
+          Start moving forward right now toward your goals 
+          and achieve your place as a dev.
+        </p>
+        <div className="info-buttons">
+          <button className="buttons-started">Get Started</button>
         </div>
       </div>
     </section>
