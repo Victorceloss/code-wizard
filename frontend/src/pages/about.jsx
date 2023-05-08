@@ -41,8 +41,14 @@ const About = () => {
       <section className="about-team">
         <h2 className="about-team-title">Our Team</h2>
         <div className="members-team">
-          <h3 className="about-team-member">Victor Vasconcelos</h3>
-          <h3 className="about-team-member">João Calixto</h3>
+          <div className="about-team-member">
+            <h3 className="team-member-name">Victor Vasconcelos</h3>
+            <h2 className="team-member-function">Development</h2>
+          </div>
+          <div className="about-team-member">
+            <h3 className="team-member-name">João Calixto</h3>
+            <h2 className="team-member-function">Text and Design</h2>
+          </div>
         </div>
       </section>
     </main>
