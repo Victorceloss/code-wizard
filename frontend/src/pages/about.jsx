@@ -38,6 +38,13 @@ const About = () => {
         </div>
         <img src={ImageTwo} className='about-two-image' alt="" />
       </section>
+      <section className="about-team">
+        <h2 className="about-team-title">Our Team</h2>
+        <div className="members-team">
+          <h3 className="about-team-member">Victor Vasconcelos</h3>
+          <h3 className="about-team-member">João Calixto</h3>
+        </div>
+      </section>
     </main>
     <Footer />
     </>
