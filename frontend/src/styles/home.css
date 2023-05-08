@@ -232,3 +232,5 @@
   background-color: var(--Title);
   border-bottom-right-radius: 50%;
 }
+
+.section-final {border-bottom: 2px solid var(--Title);}
