@@ -69,7 +69,7 @@ const About = () => {
         <img src={ImageFour} alt="" className="contact-image" />
         <div className="contact-info">
           <h2 className="contact-title">Contact Us</h2>
-          <form action="" className="contact-form">
+          <form action="http://localhost:3000/send-email" className="contact-form" method="post">
             <label htmlFor="full-name" className="full-name">Full Name</label>
             <input type="text" name="full-name" className="form-full-name" />
 
