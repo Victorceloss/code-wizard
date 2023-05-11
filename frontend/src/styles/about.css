@@ -202,3 +202,25 @@
   border-radius: 0.5rem;
   border: 2px solid var(--Details);
 }
+
+.form-button {
+  padding: 0.5rem;
+  margin: 1.0rem 0;
+
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+
+  transition: .5s ease all;
+
+  border-radius: 0.5rem;
+  background-color: var(--Title_Two);
+  border: 1px solid var(--Title_Two);
+}
+
+.form-button:hover {
+  color: var(--Title_Two);
+
+  background-color: transparent;
+}
