@@ -3,6 +3,7 @@ const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -15,14 +16,14 @@ app.post('/send-email', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'codewizard@gmail.com',
+      user: 'codewizard2023company@gmail.com',
       pass: 'v1a2l3c4'
     }
   });
 
   const mailOptions = {
     from: `${email}`,
-    to: 'codewizard@gmail.com',
+    to: `codewizard2023company@gmail.com`,
     subject: 'Message',
     text: `Name: ${fullName}\n\nEmail: ${email}\n\nMessage: ${message}`
   };
@@ -30,12 +31,12 @@ app.post('/send-email', (req, res) => {
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(error);
-      res.status(500).send('Ocorreu um erro ao enviar a mensagem.');
+      res.status(500).send('An error occurred while sending the message.');
     } else {
-      console.log('Email enviado: ' + info.response);
-      res.send('Mensagem enviada com sucesso!');
+      console.log(`Sent Email: ${info.response}`);
+      res.send('Message sent successfully!');
     }
   });
 });
 
-app.listen(3000, () => console.log('Servidor iniciado na porta 3000'));
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
