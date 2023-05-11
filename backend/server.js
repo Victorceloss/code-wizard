@@ -34,7 +34,7 @@ app.post('/send-email', (req, res) => {
       res.status(500).send('An error occurred while sending the message.');
     } else {
       console.log(`Sent Email: ${info.response}`);
-      res.send('Message sent successfully!');
+      res.redirect("back");
     }
   });
 });
