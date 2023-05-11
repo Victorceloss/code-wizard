@@ -4,6 +4,7 @@ import "../styles/responsive/responsiveAbout.css";
 import { Header } from "../components/Header/header";
 import { Footer } from "../components/Footer/footer";
 import ImageTwo from "../assets/images/image_two.jpg";
+import ImageFour from "../assets/images/image_four.png";
 
 const About = () => {
   return (
@@ -62,6 +63,22 @@ const About = () => {
               programmer of artificial intelligences.
             </p>
           </div>
+        </div>
+      </section>
+      <section className="about-contact">
+        <img src={ImageFour} alt="" className="contact-image" />
+        <div className="contact-info">
+          <h2 className="contact-title">Contact Us</h2>
+          <form action="" className="contact-form">
+            <label htmlFor="full-name" className="full-name">Full Name</label>
+            <input type="text" name="full-name" className="form-full-name" />
+
+            <label htmlFor="email" className="email">E-mail</label>
+            <input type="email" name="email" className="form-email" />
+
+            <label htmlFor="message" className="message">Message</label>
+            <textarea name="message" cols="30" rows="10" className="form-message"></textarea>
+          </form>
         </div>
       </section>
     </main>
