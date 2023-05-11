@@ -90,6 +90,19 @@
   .final-image {display: none;}
 
   .square-layout-two {display: none;}
+
+  .section-final,
+  .final-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .final-text-title,
+  .final-text-description {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
