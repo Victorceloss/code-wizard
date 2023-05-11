@@ -78,6 +78,8 @@ const About = () => {
 
             <label htmlFor="message" className="message">Message</label>
             <textarea name="message" cols="30" rows="10" className="form-message"></textarea>
+
+            <button type="submit" className="form-button">Send Message</button>
           </form>
         </div>
       </section>
