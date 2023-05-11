@@ -18,7 +18,10 @@ app.post('/send-email', (req, res) => {
     auth: {
       user: 'codewizard2023company@gmail.com',
       pass: 'smmouagbpandqpfj'
-    }
+    },
+    host: process.env.VERCEL_URL,
+    port: 465,
+    secure: true
   });
 
   const mailOptions = {
@@ -34,9 +37,7 @@ app.post('/send-email', (req, res) => {
       res.status(500).send('An error occurred while sending the message.');
     } else {
       console.log(`Sent Email: ${info.response}`);
-      res.redirect("back");
+      res.status(200).send('Email sent successfully.');
     }
   });
 });
-
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
