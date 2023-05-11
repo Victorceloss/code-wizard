@@ -44,10 +44,23 @@ const About = () => {
           <div className="about-team-member">
             <h3 className="team-member-name">Victor Vasconcelos</h3>
             <h2 className="team-member-function">Development</h2>
+            <p className="team-member-description">
+              Hello, my name is Victor Vasconcelos, I'm 16 years old and I'm 
+              attending a vocational course called Computer Systems Management 
+              and Programming. I am in the first year and I am learning about 
+              many things related to technology, such as architecture, 
+              programming, and other things.
+            </p>
           </div>
           <div className="about-team-member">
             <h3 className="team-member-name">João Calixto</h3>
             <h2 className="team-member-function">Text and Design</h2>
+            <p className="team-member-description">
+              Hello, my name is João Calixto, I'm 15 years old and I'm attending a
+              professional course called Management and Programming of Computer Systems. 
+              I am in the first year and I am learning to program and my goal is to be a 
+              programmer of artificial intelligences.
+            </p>
           </div>
         </div>
       </section>
