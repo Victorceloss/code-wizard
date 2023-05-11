@@ -21,7 +21,9 @@ export const Footer = () => {
         </div>
         <div className="footer-contacts">
           <div className="contact-info">
-            <i className="fa-solid fa-phone"></i> +351 123 456 789
+            <a href="/" className="mail-link">
+              <i className="fa-solid fa-phone"></i> +351 123 456 789
+            </a>
           </div>
           <div className="contact-info">
             <a href="mailto:codewizard2023company@gmail.com" className="mail-link">
@@ -29,7 +31,9 @@ export const Footer = () => {
             </a>
           </div>
           <div className="contact-info">
-            <i className="fa-solid fa-location-dot"></i> Av. Escola dos Fuzileiros Navais 57
+            <a href="" className="mail-link">
+              <i className="fa-solid fa-location-dot"></i> Av. Escola dos Fuzileiros Navais 57
+            </a>
           </div>
         </div>
         <div className="footer-about">
