@@ -124,3 +124,13 @@
   font-weight: normal;
   letter-spacing: 0.1rem;
 }
+
+.team-member-description {
+  width: 20rem;
+  padding: 0.5rem;
+  margin: 1.0rem 0;
+
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 1.7rem;
+}
